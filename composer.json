@@ -1,0 +1,13 @@
+{
+    "name": "symfobase/admin-engine-bundle",
+    "description": "TODO",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": { "Sfb\\AdminEngineBundle\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}
